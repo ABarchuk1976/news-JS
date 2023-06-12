@@ -17,6 +17,7 @@
     "license": "ISC",
     "homepage": "",
     "devDependencies": {
+        "awesome-typescript-loader": "^5.2.1",
         "clean-webpack-plugin": "^3.0.0",
         "copy-webpack-plugin": "^7.0.0",
         "css-loader": "^5.1.0",
@@ -31,5 +32,8 @@
         "webpack-cli": "^4.5.0",
         "webpack-dev-server": "^3.11.2",
         "webpack-merge": "^5.7.3"
+    },
+    "dependencies": {
+        "@tsconfig/node12": "^1.0.11"
     }
 }
